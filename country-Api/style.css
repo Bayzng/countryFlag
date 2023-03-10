@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppin, san serif"
+}
+
+body {
+    background-color: blue;
+}
+
+.container {
+    background-color: white;
+    padding: 3rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    max-width: 37.5rem;
+    box-shadow: 0 1.25 1.8rem rgba();
+    border-radius: 15px;
+}
+
+.searchWrapper {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 1rem;
+}
+
+.searchWrapper button {
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 0.8rem 0;
+    border-radius: 1.5rem;
+} 
+
+.searchWrapper input {
+    font-size: 1rem;
+    padding: 0 0.6rem;
+    border: none;
+    border-bottom: 2px solid blue;
+    outline: none;
+    color: #222ad4;
+}
+
+#result {
+    margin-top: 1.2rem;
+    /* text-align: center; */
+}
+.container .flag-img {
+    display: block;
+    width: 40%;
+    min-width: 7.5rem;
+    margin: 1.8rem auto 1.2rem auto;
+}
+
+.container h2 {
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8rem;
+}
+
+.data-wrapper {
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+
+}
+
+.container h4 {
+    display: inline;
+    font-weight: 500;
+    color: blue;
+}
+
+.container h3 {
+    font-family: cursive;
+    text-align: center;
+    color: red;
+    font-size: 1.2rem;
+}
